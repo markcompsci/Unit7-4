@@ -7,6 +7,7 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+    <div onfocusout="calculateDiscount()">
     <p>How old are you?</p>
     <input id="age-input" type="number">
     <p>What day is it?</p>
@@ -19,8 +20,11 @@
       <option>Friday</option>
       <option>Saturday</option>
       <option>Sunday</option>
-    </select>
-    <button id="calc-btn">Calculate</button>
+    </select> 
+
+    </div>
+    <br> <br>
+    <!-- <button id="calc-btn">Calculate</button> -->
     <script src="script.js"></script>
   </body>
 </html>
