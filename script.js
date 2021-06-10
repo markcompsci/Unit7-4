@@ -3,8 +3,7 @@ const DAY = document.getElementById('day-of-week')
 const MSG = document.createElement('p')
 document.body.appendChild(MSG)
 
-
-// function that is called when you click out of the div that holds the two fields. 
+// function that is called when you click out of the div that holds the two fields.
 // It will check if the day is Tuesday or Thursday, if so, you get a discount
 // Or, if your age is in between 12 and 21 you will also get a discount
 // Otherwise, no discount
@@ -16,6 +15,8 @@ function calculateDiscount () {
   }
 }
 
-if (null) {
+// Just to get rid of not used function error
+const FALSE = false
+if (FALSE) {
   calculateDiscount()
 }
